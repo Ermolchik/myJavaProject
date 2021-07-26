@@ -1,11 +1,11 @@
 package school.lesson1;
 
 public class HomeWorkApp{
-    public static void main(String[] agrs) {
-        prinThreeWords();
-        compareNumbres();
+    public static void main(String[] args) {
+        printThreeWords();
+        compareNumbers();
     }
-    public static void prinThreeWords() {
+    public static void printThreeWords() {
 
         System.out.println("Orange");
 
@@ -13,37 +13,41 @@ public class HomeWorkApp{
 
         System.out.println("Apple");
     }
-    public static void checkSumSign () {
+    public static void checkSumSign() {
         int a = 33;
         int b = 67;
         int c = a + b;
         if (c >= 0) {
             System.out.println("Сумма положительная");
         }
-        if (c < 0) {
+        else{
             System.out.println("Сумма отрицательная");
         }
     }
-    public static void printColor () {
+    public static void printColor() {
         int value = 99;
         if (value <= 0) {
             System.out.println("Красный");
         }
+        else{}
 
         if (value >0 && value <= 100) {
             System.out.println("Желтый");
         }
+        else{}
+
         if (value > 100) {
             System.out.println("Зелёный");
         }
+        else{}
     }
-    public static void compareNumbres () {
+    public static void compareNumbers() {
         int a = 20;
         int b = 36;
         if (a >= b) {
             System.out.println("a>=b");
         }
-        if (a < b) {
+        else{
             System.out.println("a<b");
         }
     }
