@@ -3,8 +3,6 @@ package school.lesson1;
 public class HomeWorkApp{
     public static void main(String[] agrs) {
         prinThreeWords();
-        checkSumSign();
-        printColor();
         compareNumbres();
     }
     public static void prinThreeWords() {
