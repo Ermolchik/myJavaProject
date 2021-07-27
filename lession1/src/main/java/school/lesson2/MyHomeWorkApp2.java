@@ -9,6 +9,7 @@ public class MyHomeWorkApp2 {
         massiv();
         massivDva();
         massivTri();
+        kvadrat();
     }
 
     public static boolean check(int a, int b) {
@@ -84,6 +85,13 @@ public class MyHomeWorkApp2 {
         for(int i = 0; i< arr.length; i++)
             if(arr[i]<6){arr[i]*2}
             }
+    public static void kvadrat() {
+        int[][] kvad = new int[5][5];
+        for (int i = 0; i < 5; i++) {
+            kvad[i][i] = 1;
+            kvad[i][5 - i - 1] = 1;
+        }
+    }
 }
 
 
