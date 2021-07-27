@@ -8,6 +8,7 @@ public class MyHomeWorkApp2 {
         strokaChislo("hello", 5);
         massiv();
         massivDva();
+        massivTri();
     }
 
     public static boolean check(int a, int b) {
@@ -75,8 +76,13 @@ public class MyHomeWorkApp2 {
 
     public static void massivDva() {
         int[] arr = new int[100];
-        for (int i = 0; i < arr.length; i++);
+        for(int i = 0; i < arr.length; i++);
 
+            }
+    public static void massivTri(){
+        int[] arr = new int[]{1,5,3,2,11,4,5,2,4,8,9,1};
+        for(int i = 0; i< arr.length; i++)
+            if(arr[i]<6){arr[i]*2}
             }
 }
 
