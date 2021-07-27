@@ -7,12 +7,16 @@ public class MyHomeWorkApp2 {
         chisloTrueOrFalse(-50);
         strokaChislo("hello", 5);
         massiv();
+        massivDva();
     }
 
     public static boolean check(int a, int b) {
         int summ = a + b;
-        if (summ >= 10 && summ <= 20) return true;
-        else return false;
+        if (summ >= 10 && summ <= 20) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public static void chislo(int a) {
@@ -66,7 +70,15 @@ public class MyHomeWorkApp2 {
         System.out.println(arr[7]);
         System.out.println(arr[8]);
         System.out.println(arr[9]);
-    } }
+
+    }
+
+    public static void massivDva() {
+        int[] arr = new int[100];
+        for (int i = 0; i < arr.length; i++);
+
+            }
+}
 
 
 
