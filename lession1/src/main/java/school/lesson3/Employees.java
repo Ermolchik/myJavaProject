@@ -9,11 +9,8 @@ public class Employees {
     String phone;
     int salary;
     int age;
-}
-    public static void main(String[] arg){
 
-}
-    public void Employees(String surname, String name, String patronymic, String position, String email, String phone, int salary, int age) {
+    public Employees(String surname, String name, String patronymic, String position, String email, String phone, int salary, int age) {
         this.surname = surname;
         this.name = name;
         this.patronymic = patronymic;
@@ -24,28 +21,34 @@ public class Employees {
         this.age = age;
 
     }
-    public int getAge(){
-        return age;        }
 
-    public void printInfo(){
-        System.out.println(surname);
+    public int getAge() {
+        return age;
+    }
+    public String display(){
+        return(surname+" "+name+" "+patronymic+ " " +position+ " " +email + " " +phone+ " " +salary+ " " +age);
+    }
 
-        System.out.println(name);
+    //public void printInfo() {
+      //  System.out.println(surname);
 
-        System.out.println(patronymic);
+        //System.out.println(name);
 
-        System.out.println(position);
+        //System.out.println(patronymic);
 
-        System.out.println(email);
+        //System.out.println(position);
 
-        System.out.println(phone);
+        //System.out.println(email);
 
-        System.out.println(salary);
+        //System.out.println(phone);
 
-        System.out.println(age);}
+        //System.out.println(salary);
 
-
+        //System.out.println(age);
+    //}
 
 }
+
+
 
 
