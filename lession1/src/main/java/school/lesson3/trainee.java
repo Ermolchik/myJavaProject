@@ -8,8 +8,8 @@ public class trainee{
         Person[2] = new Employees("Petrov", "Vasiliy", "Fedorovich", "Driver", "vasill@rambler.ru","80293254312", 800, 40);
         Person[3] = new Employees("Pupkin", "Fedor", "Anisimovich", "Director", "pupok@gmail.com", "375333565578", 2000, 37);
         Person[4] = new Employees("Ukupnik", "Arkadiy", "Sergeevich", "Tamada","sergeyuk@mail.ru", "+375297235419", 1000, 39);
-        for (Employees employees : Person)
-            if(employees.getAge()>40)
-                System.out.println(employees.display());
-        }
-}
+        for (int i = 0; i<Person.length; i++) {
+            if (Person[i].getAge() > 40) {
+                System.out.println(Person[i].display());
+            }
+        }}}
