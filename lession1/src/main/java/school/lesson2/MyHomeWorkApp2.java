@@ -10,6 +10,7 @@ public class MyHomeWorkApp2 {
         massivDva();
         massivTri();
         kvadrat();
+        pub(5, 10);
     }
 
     public static boolean check(int a, int b) {
@@ -95,9 +96,17 @@ public class MyHomeWorkApp2 {
             kvad[i][i] = 1;
             kvad[i][5 - i - 1] = 1;
         }
-
     }
-}
+       public static void pub(int len, int initialValue){
+            int[] arr = new int[len];
+            for(int i=0;i < len;i++){
+                if(arr[i]<initialValue){arr[i]+=initialValue;}
+                System.out.println(arr[0]);
+                }
+            }
+        }
+
+
 
 
 
