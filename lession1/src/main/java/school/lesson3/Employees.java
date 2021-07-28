@@ -10,6 +10,7 @@ public class Employees{
     int salary;
     int age;
 
+    }
     public Employees(String surname, String name, String patronymic, String position, String email, String phone, int salary, int age) {
         this.surname = surname;
         this.name = name;
@@ -39,11 +40,6 @@ public class Employees{
 
         System.out.println(age);}
 
-        public static void newEmployees(){
-        String[] persArray = new String[5];
-        persArray[0]= "Ivanov Ivan Ivanovoch", "Inneer", "ivanov@gmai.com", "+375291115566", 600, 53;
-        String
-        }
 
 
 }
