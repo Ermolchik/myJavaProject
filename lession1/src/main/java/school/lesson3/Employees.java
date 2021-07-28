@@ -41,7 +41,7 @@ public class Employees{
 
         public static void newEmployees(){
         String[] persArray = new String[5];
-        persArray[0]= new String("Ivanov Ivan Ivanovoch", "Inneer", "ivanov@gmai.com", "+375291115566", "600", "53");
+        persArray[0]= "Ivanov Ivan Ivanovoch", "Inneer", "ivanov@gmai.com", "+375291115566", 600, 53;
         String
         }
 
