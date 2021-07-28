@@ -1,6 +1,6 @@
 package school.lesson3;
 
-public class Employees{
+public class Employees {
     String surname;
     String name;
     String patronymic;
@@ -9,9 +9,11 @@ public class Employees{
     String phone;
     int salary;
     int age;
+}
+    public static void main(String[] arg){
 
-    }
-    public Employees(String surname, String name, String patronymic, String position, String email, String phone, int salary, int age) {
+}
+    public void Employees(String surname, String name, String patronymic, String position, String email, String phone, int salary, int age) {
         this.surname = surname;
         this.name = name;
         this.patronymic = patronymic;
@@ -22,6 +24,8 @@ public class Employees{
         this.age = age;
 
     }
+    public int getAge(){
+        return age;        }
 
     public void printInfo(){
         System.out.println(surname);
